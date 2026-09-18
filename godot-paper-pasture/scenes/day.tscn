@@ -1,0 +1,2001 @@
+[gd_scene load_steps=73 format=3]
+
+[ext_resource type="FontFile" path="res://assets/fonts/regular.ttc" id="font"]
+[ext_resource type="FontFile" path="res://assets/fonts/bold.ttc" id="bold"]
+[ext_resource type="Texture2D" path="res://assets/figma/f1b3701cbcdae674.svg" id="a0"]
+[ext_resource type="Texture2D" path="res://assets/figma/10a93cc060966eb6.svg" id="a1"]
+[ext_resource type="Texture2D" path="res://assets/figma/af4670ee74d68236.svg" id="a2"]
+[ext_resource type="Texture2D" path="res://assets/figma/8d7f84c4a88015ff.svg" id="a3"]
+[ext_resource type="Texture2D" path="res://assets/figma/43cef69f17347a8b.svg" id="a4"]
+[ext_resource type="Texture2D" path="res://assets/figma/4e5dccb35b37dd40.svg" id="a5"]
+[ext_resource type="Texture2D" path="res://assets/figma/f141433048d7e707.svg" id="a6"]
+[ext_resource type="Texture2D" path="res://assets/figma/00b0a55fa6f2c208.svg" id="a7"]
+[ext_resource type="Texture2D" path="res://assets/figma/c516efc3ec6f3846.svg" id="a8"]
+[ext_resource type="Texture2D" path="res://assets/figma/20bd8eeed7dc27fc.svg" id="a9"]
+[ext_resource type="Texture2D" path="res://assets/figma/92082a65a60ee00b.svg" id="a10"]
+[ext_resource type="Texture2D" path="res://assets/figma/20e0b2391b1a417e.svg" id="a11"]
+[ext_resource type="Texture2D" path="res://assets/figma/4a6e695030e25428.svg" id="a12"]
+[ext_resource type="Texture2D" path="res://assets/figma/9bf74aaf1516b092.svg" id="a13"]
+[ext_resource type="Texture2D" path="res://assets/figma/ae343f755b36a154.svg" id="a14"]
+[ext_resource type="Texture2D" path="res://assets/figma/c266c1e7c3282902.svg" id="a15"]
+[ext_resource type="Texture2D" path="res://assets/figma/61c7df3d45c27334.svg" id="a16"]
+[ext_resource type="Texture2D" path="res://assets/figma/fc410def37de1b58.svg" id="a17"]
+[ext_resource type="Texture2D" path="res://assets/figma/a39d63b4d22585c0.svg" id="a18"]
+[ext_resource type="Texture2D" path="res://assets/figma/b441b4e8370cd598.svg" id="a19"]
+[ext_resource type="Texture2D" path="res://assets/figma/78ba2ae2dc207845.svg" id="a20"]
+[ext_resource type="Texture2D" path="res://assets/figma/38913d5eea2795f4.svg" id="a21"]
+[ext_resource type="Texture2D" path="res://assets/figma/1104d403f0c30ea1.svg" id="a22"]
+[ext_resource type="Texture2D" path="res://assets/figma/c1c370cb9dc94862.svg" id="a23"]
+[ext_resource type="Texture2D" path="res://assets/figma/932dd12053ddeb5a.svg" id="a24"]
+[ext_resource type="Texture2D" path="res://assets/figma/29da5318fed0c226.svg" id="a25"]
+[ext_resource type="Texture2D" path="res://assets/figma/172d4a5bf4339ad9.svg" id="a26"]
+[ext_resource type="Texture2D" path="res://assets/figma/d0613c7abcf2c9c6.svg" id="a27"]
+[ext_resource type="Texture2D" path="res://assets/figma/377b7c9411523617.svg" id="a28"]
+[ext_resource type="Texture2D" path="res://assets/figma/8b70992cd7a464be.svg" id="a29"]
+[ext_resource type="Texture2D" path="res://assets/figma/563543a9958a6408.svg" id="a30"]
+[ext_resource type="Texture2D" path="res://assets/figma/29d2449a754fadbd.svg" id="a31"]
+[ext_resource type="Texture2D" path="res://assets/figma/353ac6baef6c01fb.svg" id="a32"]
+[ext_resource type="Texture2D" path="res://assets/figma/1c5ad984abe6d17e.svg" id="a33"]
+[ext_resource type="Texture2D" path="res://assets/figma/7889947e6a48213a.svg" id="a34"]
+[ext_resource type="Texture2D" path="res://assets/figma/dd7e4bc1737705d3.svg" id="a35"]
+[ext_resource type="Texture2D" path="res://assets/figma/aa5f6d55467626d1.svg" id="a36"]
+[ext_resource type="Texture2D" path="res://assets/figma/ed644ac3a7fde83f.svg" id="a37"]
+[ext_resource type="Texture2D" path="res://assets/figma/4b66391b1b79ab40.svg" id="a38"]
+[ext_resource type="Texture2D" path="res://assets/figma/4b8536b4de1088ad.svg" id="a39"]
+[ext_resource type="Texture2D" path="res://assets/figma/3c449038ba227750.svg" id="a40"]
+[ext_resource type="Texture2D" path="res://assets/figma/a8eb4f574889a323.svg" id="a41"]
+[ext_resource type="Texture2D" path="res://assets/figma/5bb4e530e4d382ed.svg" id="a42"]
+[ext_resource type="Texture2D" path="res://assets/figma/e123df84c9a555ca.svg" id="a43"]
+[ext_resource type="Texture2D" path="res://assets/figma/28d4d4c873db5989.svg" id="a44"]
+[ext_resource type="Texture2D" path="res://assets/figma/bae8cae1be2c918b.svg" id="a45"]
+[ext_resource type="Texture2D" path="res://assets/figma/f1a17e1bb472856d.svg" id="a46"]
+[ext_resource type="Texture2D" path="res://assets/figma/7cdaa782a46ded42.svg" id="a47"]
+[ext_resource type="Texture2D" path="res://assets/figma/fa560e3c9ac73c95.svg" id="a48"]
+[ext_resource type="Texture2D" path="res://assets/figma/b46892b033a5b966.svg" id="a49"]
+[ext_resource type="Texture2D" path="res://assets/figma/52c24af0dbff8fb4.svg" id="a50"]
+[ext_resource type="Texture2D" path="res://assets/figma/dba1d1f71f298d64.svg" id="a51"]
+[ext_resource type="Texture2D" path="res://assets/figma/d8ed27acbe8e39a7.svg" id="a52"]
+[ext_resource type="Texture2D" path="res://assets/figma/7c640a0ed5b3559d.svg" id="a53"]
+[ext_resource type="Texture2D" path="res://assets/figma/b089eed7f3c5179b.svg" id="a54"]
+[ext_resource type="Texture2D" path="res://assets/figma/63a01704ffae5e58.svg" id="a55"]
+[ext_resource type="Texture2D" path="res://assets/figma/0d7ed078c08cef3b.svg" id="a56"]
+[ext_resource type="Texture2D" path="res://assets/figma/45dcbae1e8af38b2.svg" id="a57"]
+[ext_resource type="Texture2D" path="res://assets/figma/e7539227eab2092c.svg" id="a58"]
+[ext_resource type="Texture2D" path="res://assets/figma/1beeff666e2d1469.svg" id="a59"]
+[ext_resource type="Texture2D" path="res://assets/figma/064a85b68219afe4.svg" id="a60"]
+[ext_resource type="Texture2D" path="res://assets/figma/e6434e76c3a7175b.svg" id="a61"]
+[ext_resource type="Texture2D" path="res://assets/figma/6af3338484b9dcab.svg" id="a62"]
+[ext_resource type="Texture2D" path="res://assets/figma/4e8bacf884111604.svg" id="a63"]
+[ext_resource type="Texture2D" path="res://assets/figma/1283c2244ecaf5be.svg" id="a64"]
+[ext_resource type="Texture2D" path="res://assets/figma/b2cd837953db27b7.svg" id="a65"]
+[ext_resource type="Texture2D" path="res://assets/figma/5046695027300bbd.svg" id="a66"]
+[ext_resource type="Texture2D" path="res://assets/figma/fc87b4f61db1365f.svg" id="a67"]
+[ext_resource type="Texture2D" path="res://assets/figma/837864d2e1ec78b7.svg" id="a68"]
+[ext_resource type="Texture2D" path="res://assets/figma/54ca83c260691b33.svg" id="a69"]
+
+[node name="Day" type="Node2D"]
+
+[node name="Art_56_1147" type="Sprite2D" parent="."]
+position = Vector2(0, 0)
+centered = false
+texture = ExtResource("a0")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1148" type="Sprite2D" parent="."]
+position = Vector2(0, 260)
+centered = false
+texture = ExtResource("a1")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1149" type="Sprite2D" parent="."]
+position = Vector2(0, 557)
+centered = false
+texture = ExtResource("a2")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1150" type="Sprite2D" parent="."]
+position = Vector2(1276, 115)
+centered = false
+texture = ExtResource("a3")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1151" type="Sprite2D" parent="."]
+position = Vector2(1089, 171)
+centered = false
+texture = ExtResource("a4")
+scale = Vector2(0.9999433365442625, 0.9998980104029389)
+
+[node name="Art_56_1152" type="Sprite2D" parent="."]
+position = Vector2(1096, 170)
+centered = false
+texture = ExtResource("a5")
+scale = Vector2(0.9999622236493289, 0.9999433365442626)
+
+[node name="Art_56_1153" type="Sprite2D" parent="."]
+position = Vector2(1121, 186)
+centered = false
+texture = ExtResource("a4")
+scale = Vector2(0.9999433365442625, 0.9998980104029389)
+
+[node name="Art_56_1154" type="Sprite2D" parent="."]
+position = Vector2(1128, 185)
+centered = false
+texture = ExtResource("a5")
+scale = Vector2(0.9999622236493289, 0.9999433365442626)
+
+[node name="Art_56_1155" type="Sprite2D" parent="."]
+position = Vector2(1153, 171)
+centered = false
+texture = ExtResource("a4")
+scale = Vector2(0.9999433365442625, 0.9998980104029389)
+
+[node name="Art_56_1156" type="Sprite2D" parent="."]
+position = Vector2(1160, 170)
+centered = false
+texture = ExtResource("a5")
+scale = Vector2(0.9999622236493289, 0.9999433365442626)
+
+[node name="Art_56_1157" type="Sprite2D" parent="."]
+position = Vector2(1185, 186)
+centered = false
+texture = ExtResource("a4")
+scale = Vector2(0.9999433365442625, 0.9998980104029389)
+
+[node name="Art_56_1158" type="Sprite2D" parent="."]
+position = Vector2(1192, 185)
+centered = false
+texture = ExtResource("a5")
+scale = Vector2(0.9999622236493289, 0.9999433365442626)
+
+[node name="Art_56_1159" type="Sprite2D" parent="."]
+position = Vector2(352, 595)
+centered = false
+texture = ExtResource("a6")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1160" type="Sprite2D" parent="."]
+position = Vector2(428, 285)
+centered = false
+texture = ExtResource("a7")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1161" type="Sprite2D" parent="."]
+position = Vector2(428, 429)
+centered = false
+texture = ExtResource("a8")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1162" type="Sprite2D" parent="."]
+position = Vector2(820, 579)
+centered = false
+texture = ExtResource("a9")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1163" type="Sprite2D" parent="."]
+position = Vector2(428, 254)
+centered = false
+texture = ExtResource("a10")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1164" type="Sprite2D" parent="."]
+position = Vector2(575, 254)
+centered = false
+texture = ExtResource("a11")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1165" type="Sprite2D" parent="."]
+position = Vector2(428, 354)
+centered = false
+texture = ExtResource("a12")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1166" type="Sprite2D" parent="."]
+position = Vector2(771, 379)
+centered = false
+texture = ExtResource("a13")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1167" type="Sprite2D" parent="."]
+position = Vector2(1065, 529)
+centered = false
+texture = ExtResource("a14")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1168" type="Sprite2D" parent="."]
+position = Vector2(1016, 554)
+centered = false
+texture = ExtResource("a15")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1169" type="Sprite2D" parent="."]
+position = Vector2(967, 579)
+centered = false
+texture = ExtResource("a16")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1170" type="Sprite2D" parent="."]
+position = Vector2(1114, 554)
+centered = false
+texture = ExtResource("a15")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1171" type="Sprite2D" parent="."]
+position = Vector2(1065, 579)
+centered = false
+texture = ExtResource("a16")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1172" type="Sprite2D" parent="."]
+position = Vector2(1016, 604)
+centered = false
+texture = ExtResource("a14")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1173" type="Sprite2D" parent="."]
+position = Vector2(1101.55, 541.75)
+centered = false
+texture = ExtResource("a17")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1174" type="Sprite2D" parent="."]
+position = Vector2(1140.75, 561.75)
+centered = false
+texture = ExtResource("a17")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1175" type="Sprite2D" parent="."]
+position = Vector2(1072.15, 556.75)
+centered = false
+texture = ExtResource("a17")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1176" type="Sprite2D" parent="."]
+position = Vector2(1111.35, 576.75)
+centered = false
+texture = ExtResource("a17")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1177" type="Sprite2D" parent="."]
+position = Vector2(1042.75, 571.75)
+centered = false
+texture = ExtResource("a17")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1178" type="Sprite2D" parent="."]
+position = Vector2(1081.95, 591.75)
+centered = false
+texture = ExtResource("a17")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1179" type="Sprite2D" parent="."]
+position = Vector2(1013.35, 586.75)
+centered = false
+texture = ExtResource("a17")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1180" type="Sprite2D" parent="."]
+position = Vector2(1052.55, 606.75)
+centered = false
+texture = ExtResource("a17")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1181" type="Sprite2D" parent="."]
+position = Vector2(722, 354)
+centered = false
+texture = ExtResource("a18")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1182" type="Sprite2D" parent="."]
+position = Vector2(673, 379)
+centered = false
+texture = ExtResource("a18")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1183" type="Sprite2D" parent="."]
+position = Vector2(624, 404)
+centered = false
+texture = ExtResource("a18")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1184" type="Sprite2D" parent="."]
+position = Vector2(771, 379)
+centered = false
+texture = ExtResource("a18")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1185" type="Sprite2D" parent="."]
+position = Vector2(722, 404)
+centered = false
+texture = ExtResource("a18")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1186" type="Sprite2D" parent="."]
+position = Vector2(673, 429)
+centered = false
+texture = ExtResource("a18")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1187" type="Sprite2D" parent="."]
+position = Vector2(820, 404)
+centered = false
+texture = ExtResource("a18")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1188" type="Sprite2D" parent="."]
+position = Vector2(771, 429)
+centered = false
+texture = ExtResource("a18")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1189" type="Sprite2D" parent="."]
+position = Vector2(722, 454)
+centered = false
+texture = ExtResource("a18")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1190" type="Sprite2D" parent="."]
+position = Vector2(918, 454)
+centered = false
+texture = ExtResource("a18")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1191" type="Sprite2D" parent="."]
+position = Vector2(869, 479)
+centered = false
+texture = ExtResource("a18")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1192" type="Sprite2D" parent="."]
+position = Vector2(820, 504)
+centered = false
+texture = ExtResource("a18")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1193" type="Sprite2D" parent="."]
+position = Vector2(967, 479)
+centered = false
+texture = ExtResource("a18")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1194" type="Sprite2D" parent="."]
+position = Vector2(918, 504)
+centered = false
+texture = ExtResource("a18")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1195" type="Sprite2D" parent="."]
+position = Vector2(869, 529)
+centered = false
+texture = ExtResource("a18")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1196" type="Sprite2D" parent="."]
+position = Vector2(1016, 504)
+centered = false
+texture = ExtResource("a18")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1197" type="Sprite2D" parent="."]
+position = Vector2(967, 529)
+centered = false
+texture = ExtResource("a18")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1198" type="Sprite2D" parent="."]
+position = Vector2(918, 554)
+centered = false
+texture = ExtResource("a18")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1199" type="Sprite2D" parent="."]
+position = Vector2(771, 479)
+centered = false
+texture = ExtResource("a18")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1200" type="Sprite2D" parent="."]
+position = Vector2(757.8, 352)
+centered = false
+texture = ExtResource("a19")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1203" type="Sprite2D" parent="."]
+position = Vector2(811.7, 379.5)
+centered = false
+texture = ExtResource("a20")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1206" type="Sprite2D" parent="."]
+position = Vector2(855.8, 407)
+centered = false
+texture = ExtResource("a19")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1209" type="Sprite2D" parent="."]
+position = Vector2(708.8, 382)
+centered = false
+texture = ExtResource("a19")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1212" type="Sprite2D" parent="."]
+position = Vector2(953.8, 452)
+centered = false
+texture = ExtResource("a19")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1215" type="Sprite2D" parent="."]
+position = Vector2(1002.8, 482)
+centered = false
+texture = ExtResource("a19")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1218" type="Sprite2D" parent="."]
+position = Vector2(1007.7, 529.5)
+centered = false
+texture = ExtResource("a20")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1221" type="Sprite2D" parent="."]
+position = Vector2(904.8, 532)
+centered = false
+texture = ExtResource("a19")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1224" type="Sprite2D" parent="."]
+position = Vector2(724.6, 322)
+centered = false
+texture = ExtResource("a21")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1227" type="Sprite2D" parent="."]
+position = Vector2(592.3, 379.5)
+centered = false
+texture = ExtResource("a22")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1230" type="Sprite2D" parent="."]
+position = Vector2(567.8, 442)
+centered = false
+texture = ExtResource("a22")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1233" type="Sprite2D" parent="."]
+position = Vector2(616.8, 517)
+centered = false
+texture = ExtResource("a22")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1236" type="Sprite2D" parent="."]
+position = Vector2(773.6, 587)
+centered = false
+texture = ExtResource("a21")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1239" type="Sprite2D" parent="."]
+position = Vector2(1057.8, 642)
+centered = false
+texture = ExtResource("a23")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1242" type="Sprite2D" parent="."]
+position = Vector2(1204.8, 517)
+centered = false
+texture = ExtResource("a23")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1245" type="Sprite2D" parent="."]
+position = Vector2(1106.8, 417)
+centered = false
+texture = ExtResource("a23")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1248" type="Sprite2D" parent="."]
+position = Vector2(773, 356)
+centered = false
+texture = ExtResource("a24")
+scale = Vector2(0.9999763641950281, 0.9999580662746401)
+
+[node name="Art_56_1249" type="Sprite2D" parent="."]
+position = Vector2(768.5, 342.5)
+centered = false
+texture = ExtResource("a25")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1250" type="Sprite2D" parent="."]
+position = Vector2(768.5, 330.5)
+centered = false
+texture = ExtResource("a25")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1251" type="Sprite2D" parent="."]
+position = Vector2(768, 321)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1252" type="Sprite2D" parent="."]
+position = Vector2(774, 324)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1253" type="Sprite2D" parent="."]
+position = Vector2(817, 346)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1254" type="Sprite2D" parent="."]
+position = Vector2(823, 349)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1255" type="Sprite2D" parent="."]
+position = Vector2(724, 356)
+centered = false
+texture = ExtResource("a28")
+scale = Vector2(0.9999763641950281, 0.9999580662746401)
+
+[node name="Art_56_1256" type="Sprite2D" parent="."]
+position = Vector2(719.5, 342.5)
+centered = false
+texture = ExtResource("a29")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1257" type="Sprite2D" parent="."]
+position = Vector2(719.5, 330.5)
+centered = false
+texture = ExtResource("a29")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1258" type="Sprite2D" parent="."]
+position = Vector2(719, 346)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1259" type="Sprite2D" parent="."]
+position = Vector2(725, 349)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1260" type="Sprite2D" parent="."]
+position = Vector2(768, 321)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1261" type="Sprite2D" parent="."]
+position = Vector2(774, 324)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1262" type="Sprite2D" parent="."]
+position = Vector2(675, 381)
+centered = false
+texture = ExtResource("a28")
+scale = Vector2(0.9999763641950281, 0.9999580662746401)
+
+[node name="Art_56_1263" type="Sprite2D" parent="."]
+position = Vector2(670.5, 367.5)
+centered = false
+texture = ExtResource("a29")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1264" type="Sprite2D" parent="."]
+position = Vector2(670.5, 355.5)
+centered = false
+texture = ExtResource("a29")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1265" type="Sprite2D" parent="."]
+position = Vector2(670, 371)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1266" type="Sprite2D" parent="."]
+position = Vector2(676, 374)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1267" type="Sprite2D" parent="."]
+position = Vector2(719, 346)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1268" type="Sprite2D" parent="."]
+position = Vector2(725, 349)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1269" type="Sprite2D" parent="."]
+position = Vector2(626, 431)
+centered = false
+texture = ExtResource("a30")
+scale = Vector2(0.9999763641950281, 0.9999580662746401)
+
+[node name="Art_56_1270" type="Sprite2D" parent="."]
+position = Vector2(621.5, 417.5)
+centered = false
+texture = ExtResource("a31")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1271" type="Sprite2D" parent="."]
+position = Vector2(621.5, 405.5)
+centered = false
+texture = ExtResource("a31")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1272" type="Sprite2D" parent="."]
+position = Vector2(670, 421)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1273" type="Sprite2D" parent="."]
+position = Vector2(676, 424)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1274" type="Sprite2D" parent="."]
+position = Vector2(621, 396)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1275" type="Sprite2D" parent="."]
+position = Vector2(627, 399)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1276" type="Sprite2D" parent="."]
+position = Vector2(626, 406)
+centered = false
+texture = ExtResource("a28")
+scale = Vector2(0.9999763641950281, 0.9999580662746401)
+
+[node name="Art_56_1277" type="Sprite2D" parent="."]
+position = Vector2(621.5, 392.5)
+centered = false
+texture = ExtResource("a29")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1278" type="Sprite2D" parent="."]
+position = Vector2(621.5, 380.5)
+centered = false
+texture = ExtResource("a29")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1279" type="Sprite2D" parent="."]
+position = Vector2(621, 396)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1280" type="Sprite2D" parent="."]
+position = Vector2(627, 399)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1281" type="Sprite2D" parent="."]
+position = Vector2(670, 371)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1282" type="Sprite2D" parent="."]
+position = Vector2(676, 374)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1283" type="Sprite2D" parent="."]
+position = Vector2(822, 381)
+centered = false
+texture = ExtResource("a24")
+scale = Vector2(0.9999763641950281, 0.9999580662746401)
+
+[node name="Art_56_1284" type="Sprite2D" parent="."]
+position = Vector2(817.5, 367.5)
+centered = false
+texture = ExtResource("a25")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1285" type="Sprite2D" parent="."]
+position = Vector2(817.5, 355.5)
+centered = false
+texture = ExtResource("a25")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1286" type="Sprite2D" parent="."]
+position = Vector2(817, 346)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1287" type="Sprite2D" parent="."]
+position = Vector2(823, 349)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1288" type="Sprite2D" parent="."]
+position = Vector2(866, 371)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1289" type="Sprite2D" parent="."]
+position = Vector2(872, 374)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1290" type="Sprite2D" parent="."]
+position = Vector2(871, 406)
+centered = false
+texture = ExtResource("a24")
+scale = Vector2(0.9999763641950281, 0.9999580662746401)
+
+[node name="Art_56_1291" type="Sprite2D" parent="."]
+position = Vector2(866.5, 392.5)
+centered = false
+texture = ExtResource("a25")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1292" type="Sprite2D" parent="."]
+position = Vector2(866.5, 380.5)
+centered = false
+texture = ExtResource("a25")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1293" type="Sprite2D" parent="."]
+position = Vector2(866, 371)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1294" type="Sprite2D" parent="."]
+position = Vector2(872, 374)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1295" type="Sprite2D" parent="."]
+position = Vector2(915, 396)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1296" type="Sprite2D" parent="."]
+position = Vector2(921, 399)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1297" type="Sprite2D" parent="."]
+position = Vector2(871, 431)
+centered = false
+texture = ExtResource("a32")
+scale = Vector2(0.9999763641950281, 0.9999580662746401)
+
+[node name="Art_56_1298" type="Sprite2D" parent="."]
+position = Vector2(866.5, 417.5)
+centered = false
+texture = ExtResource("a33")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1299" type="Sprite2D" parent="."]
+position = Vector2(866.5, 405.5)
+centered = false
+texture = ExtResource("a33")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1300" type="Sprite2D" parent="."]
+position = Vector2(915, 396)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1301" type="Sprite2D" parent="."]
+position = Vector2(921, 399)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1302" type="Sprite2D" parent="."]
+position = Vector2(866, 421)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1303" type="Sprite2D" parent="."]
+position = Vector2(872, 424)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1304" type="Sprite2D" parent="."]
+position = Vector2(929.1, 372.1)
+centered = false
+texture = ExtResource("a34")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1310" type="Sprite2D" parent="."]
+position = Vector2(882.95, 385.25)
+centered = false
+texture = ExtResource("a35")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1316" type="Sprite2D" parent="."]
+position = Vector2(850.85, 429.35)
+centered = false
+texture = ExtResource("a36")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1322" type="Sprite2D" parent="."]
+position = Vector2(730.3, 161)
+centered = false
+texture = ExtResource("a37")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1330" type="Sprite2D" parent="."]
+position = Vector2(844.3, 197.5)
+centered = false
+texture = ExtResource("a38")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1338" type="Sprite2D" parent="."]
+position = Vector2(894.5, 207)
+centered = false
+texture = ExtResource("a39")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1346" type="Sprite2D" parent="."]
+position = Vector2(1133.95, 312.5)
+centered = false
+texture = ExtResource("a40")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1354" type="Sprite2D" parent="."]
+position = Vector2(1185.45, 391)
+centered = false
+texture = ExtResource("a41")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1362" type="Sprite2D" parent="."]
+position = Vector2(1216.7, 467.5)
+centered = false
+texture = ExtResource("a42")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1370" type="Sprite2D" parent="."]
+position = Vector2(528.2, 269)
+centered = false
+texture = ExtResource("a43")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1378" type="Sprite2D" parent="."]
+position = Vector2(507.4, 329.5)
+centered = false
+texture = ExtResource("a44")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1386" type="Sprite2D" parent="."]
+position = Vector2(504.9, 376)
+centered = false
+texture = ExtResource("a45")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1394" type="Sprite2D" parent="."]
+position = Vector2(830.8, 564.5)
+centered = false
+texture = ExtResource("a46")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1402" type="Sprite2D" parent="."]
+position = Vector2(928.15, 557.5)
+centered = false
+texture = ExtResource("a47")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1410" type="Sprite2D" parent="."]
+position = Vector2(721.8, 525)
+centered = false
+texture = ExtResource("a48")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1418" type="Sprite2D" parent="."]
+position = Vector2(729.75, 370.25)
+centered = false
+texture = ExtResource("a49")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1431" type="Sprite2D" parent="."]
+position = Vector2(722.1, 416.5)
+centered = false
+texture = ExtResource("a50")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1444" type="Sprite2D" parent="."]
+position = Vector2(911.05, 467.75)
+centered = false
+texture = ExtResource("a49")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1457" type="Sprite2D" parent="."]
+position = Vector2(910.75, 520.25)
+centered = false
+texture = ExtResource("a50")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1470" type="Sprite2D" parent="."]
+position = Vector2(675, 456)
+centered = false
+texture = ExtResource("a30")
+scale = Vector2(0.9999763641950281, 0.9999580662746401)
+
+[node name="Art_56_1471" type="Sprite2D" parent="."]
+position = Vector2(670.5, 442.5)
+centered = false
+texture = ExtResource("a31")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1472" type="Sprite2D" parent="."]
+position = Vector2(670.5, 430.5)
+centered = false
+texture = ExtResource("a31")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1473" type="Sprite2D" parent="."]
+position = Vector2(719, 446)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1474" type="Sprite2D" parent="."]
+position = Vector2(725, 449)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1475" type="Sprite2D" parent="."]
+position = Vector2(670, 421)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1476" type="Sprite2D" parent="."]
+position = Vector2(676, 424)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1477" type="Sprite2D" parent="."]
+position = Vector2(822, 456)
+centered = false
+texture = ExtResource("a32")
+scale = Vector2(0.9999763641950281, 0.9999580662746401)
+
+[node name="Art_56_1478" type="Sprite2D" parent="."]
+position = Vector2(817.5, 442.5)
+centered = false
+texture = ExtResource("a33")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1479" type="Sprite2D" parent="."]
+position = Vector2(817.5, 430.5)
+centered = false
+texture = ExtResource("a33")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1480" type="Sprite2D" parent="."]
+position = Vector2(866, 421)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1481" type="Sprite2D" parent="."]
+position = Vector2(872, 424)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1482" type="Sprite2D" parent="."]
+position = Vector2(817, 446)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1483" type="Sprite2D" parent="."]
+position = Vector2(823, 449)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1484" type="Sprite2D" parent="."]
+position = Vector2(724, 481)
+centered = false
+texture = ExtResource("a30")
+scale = Vector2(0.9999763641950281, 0.9999580662746401)
+
+[node name="Art_56_1485" type="Sprite2D" parent="."]
+position = Vector2(719.5, 467.5)
+centered = false
+texture = ExtResource("a31")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1486" type="Sprite2D" parent="."]
+position = Vector2(719.5, 455.5)
+centered = false
+texture = ExtResource("a31")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1487" type="Sprite2D" parent="."]
+position = Vector2(768, 471)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1488" type="Sprite2D" parent="."]
+position = Vector2(774, 474)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1489" type="Sprite2D" parent="."]
+position = Vector2(719, 446)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1490" type="Sprite2D" parent="."]
+position = Vector2(725, 449)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1491" type="Sprite2D" parent="."]
+position = Vector2(969, 456)
+centered = false
+texture = ExtResource("a24")
+scale = Vector2(0.9999763641950281, 0.9999580662746401)
+
+[node name="Art_56_1492" type="Sprite2D" parent="."]
+position = Vector2(964.5, 442.5)
+centered = false
+texture = ExtResource("a25")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1493" type="Sprite2D" parent="."]
+position = Vector2(964.5, 430.5)
+centered = false
+texture = ExtResource("a25")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1494" type="Sprite2D" parent="."]
+position = Vector2(964, 421)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1495" type="Sprite2D" parent="."]
+position = Vector2(970, 424)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1496" type="Sprite2D" parent="."]
+position = Vector2(1013, 446)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1497" type="Sprite2D" parent="."]
+position = Vector2(1019, 449)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1498" type="Sprite2D" parent="."]
+position = Vector2(920, 456)
+centered = false
+texture = ExtResource("a28")
+scale = Vector2(0.9999763641950281, 0.9999580662746401)
+
+[node name="Art_56_1499" type="Sprite2D" parent="."]
+position = Vector2(915.5, 442.5)
+centered = false
+texture = ExtResource("a29")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1500" type="Sprite2D" parent="."]
+position = Vector2(915.5, 430.5)
+centered = false
+texture = ExtResource("a29")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1501" type="Sprite2D" parent="."]
+position = Vector2(915, 446)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1502" type="Sprite2D" parent="."]
+position = Vector2(921, 449)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1503" type="Sprite2D" parent="."]
+position = Vector2(964, 421)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1504" type="Sprite2D" parent="."]
+position = Vector2(970, 424)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1505" type="Sprite2D" parent="."]
+position = Vector2(871, 481)
+centered = false
+texture = ExtResource("a28")
+scale = Vector2(0.9999763641950281, 0.9999580662746401)
+
+[node name="Art_56_1506" type="Sprite2D" parent="."]
+position = Vector2(866.5, 467.5)
+centered = false
+texture = ExtResource("a29")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1507" type="Sprite2D" parent="."]
+position = Vector2(866.5, 455.5)
+centered = false
+texture = ExtResource("a29")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1508" type="Sprite2D" parent="."]
+position = Vector2(866, 471)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1509" type="Sprite2D" parent="."]
+position = Vector2(872, 474)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1510" type="Sprite2D" parent="."]
+position = Vector2(915, 446)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1511" type="Sprite2D" parent="."]
+position = Vector2(921, 449)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1512" type="Sprite2D" parent="."]
+position = Vector2(822, 531)
+centered = false
+texture = ExtResource("a30")
+scale = Vector2(0.9999763641950281, 0.9999580662746401)
+
+[node name="Art_56_1513" type="Sprite2D" parent="."]
+position = Vector2(817.5, 517.5)
+centered = false
+texture = ExtResource("a31")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1514" type="Sprite2D" parent="."]
+position = Vector2(817.5, 505.5)
+centered = false
+texture = ExtResource("a31")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1515" type="Sprite2D" parent="."]
+position = Vector2(866, 521)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1516" type="Sprite2D" parent="."]
+position = Vector2(872, 524)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1517" type="Sprite2D" parent="."]
+position = Vector2(817, 496)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1518" type="Sprite2D" parent="."]
+position = Vector2(823, 499)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1519" type="Sprite2D" parent="."]
+position = Vector2(1018, 481)
+centered = false
+texture = ExtResource("a24")
+scale = Vector2(0.9999763641950281, 0.9999580662746401)
+
+[node name="Art_56_1520" type="Sprite2D" parent="."]
+position = Vector2(1013.5, 467.5)
+centered = false
+texture = ExtResource("a25")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1521" type="Sprite2D" parent="."]
+position = Vector2(1013.5, 455.5)
+centered = false
+texture = ExtResource("a25")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1522" type="Sprite2D" parent="."]
+position = Vector2(1013, 446)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1523" type="Sprite2D" parent="."]
+position = Vector2(1019, 449)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1524" type="Sprite2D" parent="."]
+position = Vector2(1062, 471)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1525" type="Sprite2D" parent="."]
+position = Vector2(1068, 474)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1526" type="Sprite2D" parent="."]
+position = Vector2(871, 556)
+centered = false
+texture = ExtResource("a30")
+scale = Vector2(0.9999763641950281, 0.9999580662746401)
+
+[node name="Art_56_1527" type="Sprite2D" parent="."]
+position = Vector2(866.5, 542.5)
+centered = false
+texture = ExtResource("a31")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1528" type="Sprite2D" parent="."]
+position = Vector2(866.5, 530.5)
+centered = false
+texture = ExtResource("a31")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1529" type="Sprite2D" parent="."]
+position = Vector2(915, 546)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1530" type="Sprite2D" parent="."]
+position = Vector2(921, 549)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1531" type="Sprite2D" parent="."]
+position = Vector2(866, 521)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1532" type="Sprite2D" parent="."]
+position = Vector2(872, 524)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1533" type="Sprite2D" parent="."]
+position = Vector2(1067, 506)
+centered = false
+texture = ExtResource("a24")
+scale = Vector2(0.9999763641950281, 0.9999580662746401)
+
+[node name="Art_56_1534" type="Sprite2D" parent="."]
+position = Vector2(1062.5, 492.5)
+centered = false
+texture = ExtResource("a25")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1535" type="Sprite2D" parent="."]
+position = Vector2(1062.5, 480.5)
+centered = false
+texture = ExtResource("a25")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1536" type="Sprite2D" parent="."]
+position = Vector2(1062, 471)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1537" type="Sprite2D" parent="."]
+position = Vector2(1068, 474)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1538" type="Sprite2D" parent="."]
+position = Vector2(1111, 496)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1539" type="Sprite2D" parent="."]
+position = Vector2(1117, 499)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1540" type="Sprite2D" parent="."]
+position = Vector2(920, 581)
+centered = false
+texture = ExtResource("a30")
+scale = Vector2(0.9999763641950281, 0.9999580662746401)
+
+[node name="Art_56_1541" type="Sprite2D" parent="."]
+position = Vector2(915.5, 567.5)
+centered = false
+texture = ExtResource("a31")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1542" type="Sprite2D" parent="."]
+position = Vector2(915.5, 555.5)
+centered = false
+texture = ExtResource("a31")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1543" type="Sprite2D" parent="."]
+position = Vector2(964, 571)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1544" type="Sprite2D" parent="."]
+position = Vector2(970, 574)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1545" type="Sprite2D" parent="."]
+position = Vector2(915, 546)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1546" type="Sprite2D" parent="."]
+position = Vector2(921, 549)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1547" type="Sprite2D" parent="."]
+position = Vector2(822, 481)
+centered = false
+texture = ExtResource("a24")
+scale = Vector2(0.9999763641950281, 0.9999580662746401)
+
+[node name="Art_56_1548" type="Sprite2D" parent="."]
+position = Vector2(817.5, 467.5)
+centered = false
+texture = ExtResource("a25")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1549" type="Sprite2D" parent="."]
+position = Vector2(817.5, 455.5)
+centered = false
+texture = ExtResource("a25")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1550" type="Sprite2D" parent="."]
+position = Vector2(817, 446)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1551" type="Sprite2D" parent="."]
+position = Vector2(823, 449)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1552" type="Sprite2D" parent="."]
+position = Vector2(866, 471)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1553" type="Sprite2D" parent="."]
+position = Vector2(872, 474)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1554" type="Sprite2D" parent="."]
+position = Vector2(773, 506)
+centered = false
+texture = ExtResource("a30")
+scale = Vector2(0.9999763641950281, 0.9999580662746401)
+
+[node name="Art_56_1555" type="Sprite2D" parent="."]
+position = Vector2(768.5, 492.5)
+centered = false
+texture = ExtResource("a31")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1556" type="Sprite2D" parent="."]
+position = Vector2(768.5, 480.5)
+centered = false
+texture = ExtResource("a31")
+scale = Vector2(0.9999796300445731, 0.9999633346777285)
+
+[node name="Art_56_1557" type="Sprite2D" parent="."]
+position = Vector2(817, 496)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1558" type="Sprite2D" parent="."]
+position = Vector2(823, 499)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1559" type="Sprite2D" parent="."]
+position = Vector2(768, 471)
+centered = false
+texture = ExtResource("a26")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1560" type="Sprite2D" parent="."]
+position = Vector2(774, 474)
+centered = false
+texture = ExtResource("a27")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1561" type="Sprite2D" parent="."]
+position = Vector2(927.9, 585.5)
+centered = false
+texture = ExtResource("a51")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1567" type="Sprite2D" parent="."]
+position = Vector2(574.5, 446.5)
+centered = false
+texture = ExtResource("a52")
+scale = Vector2(0.9999133408437936, 0.9999675010562156)
+
+[node name="Art_56_1568" type="Sprite2D" parent="."]
+position = Vector2(575, 444)
+centered = false
+texture = ExtResource("a53")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1569" type="Sprite2D" parent="."]
+position = Vector2(628.4, 505.5)
+centered = false
+texture = ExtResource("a52")
+scale = Vector2(0.9999133408437936, 0.9999675010562156)
+
+[node name="Art_56_1570" type="Sprite2D" parent="."]
+position = Vector2(628.9, 503)
+centered = false
+texture = ExtResource("a54")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1571" type="Sprite2D" parent="."]
+position = Vector2(682.3, 564.5)
+centered = false
+texture = ExtResource("a52")
+scale = Vector2(0.9999133408437936, 0.9999675010562156)
+
+[node name="Art_56_1572" type="Sprite2D" parent="."]
+position = Vector2(682.8, 562)
+centered = false
+texture = ExtResource("a54")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1573" type="Sprite2D" parent="."]
+position = Vector2(804.8, 588.5)
+centered = false
+texture = ExtResource("a52")
+scale = Vector2(0.9999133408437936, 0.9999675010562156)
+
+[node name="Art_56_1574" type="Sprite2D" parent="."]
+position = Vector2(805.3, 586)
+centered = false
+texture = ExtResource("a53")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1575" type="Sprite2D" parent="."]
+position = Vector2(858.7, 647.5)
+centered = false
+texture = ExtResource("a52")
+scale = Vector2(0.9999133408437936, 0.9999675010562156)
+
+[node name="Art_56_1576" type="Sprite2D" parent="."]
+position = Vector2(859.2, 645)
+centered = false
+texture = ExtResource("a54")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1577" type="Sprite2D" parent="."]
+position = Vector2(589.2, 471.5)
+centered = false
+texture = ExtResource("a52")
+scale = Vector2(0.9999133408437936, 0.9999675010562156)
+
+[node name="Art_56_1578" type="Sprite2D" parent="."]
+position = Vector2(589.7, 469)
+centered = false
+texture = ExtResource("a54")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1579" type="Sprite2D" parent="."]
+position = Vector2(643.1, 530.5)
+centered = false
+texture = ExtResource("a52")
+scale = Vector2(0.9999133408437936, 0.9999675010562156)
+
+[node name="Art_56_1580" type="Sprite2D" parent="."]
+position = Vector2(643.6, 528)
+centered = false
+texture = ExtResource("a53")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1581" type="Sprite2D" parent="."]
+position = Vector2(765.6, 554.5)
+centered = false
+texture = ExtResource("a52")
+scale = Vector2(0.9999133408437936, 0.9999675010562156)
+
+[node name="Art_56_1582" type="Sprite2D" parent="."]
+position = Vector2(766.1, 552)
+centered = false
+texture = ExtResource("a54")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1583" type="Sprite2D" parent="."]
+position = Vector2(819.5, 613.5)
+centered = false
+texture = ExtResource("a52")
+scale = Vector2(0.9999133408437936, 0.9999675010562156)
+
+[node name="Art_56_1584" type="Sprite2D" parent="."]
+position = Vector2(820, 611)
+centered = false
+texture = ExtResource("a54")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1585" type="Sprite2D" parent="."]
+position = Vector2(942, 637.5)
+centered = false
+texture = ExtResource("a52")
+scale = Vector2(0.9999133408437936, 0.9999675010562156)
+
+[node name="Art_56_1586" type="Sprite2D" parent="."]
+position = Vector2(942.5, 635)
+centered = false
+texture = ExtResource("a53")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1587" type="Sprite2D" parent="."]
+position = Vector2(603.9, 496.5)
+centered = false
+texture = ExtResource("a52")
+scale = Vector2(0.9999133408437936, 0.9999675010562156)
+
+[node name="Art_56_1588" type="Sprite2D" parent="."]
+position = Vector2(604.4, 494)
+centered = false
+texture = ExtResource("a54")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1589" type="Sprite2D" parent="."]
+position = Vector2(657.8, 555.5)
+centered = false
+texture = ExtResource("a52")
+scale = Vector2(0.9999133408437936, 0.9999675010562156)
+
+[node name="Art_56_1590" type="Sprite2D" parent="."]
+position = Vector2(658.3, 553)
+centered = false
+texture = ExtResource("a54")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1591" type="Sprite2D" parent="."]
+position = Vector2(780.3, 579.5)
+centered = false
+texture = ExtResource("a52")
+scale = Vector2(0.9999133408437936, 0.9999675010562156)
+
+[node name="Art_56_1592" type="Sprite2D" parent="."]
+position = Vector2(780.8, 577)
+centered = false
+texture = ExtResource("a53")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1593" type="Sprite2D" parent="."]
+position = Vector2(834.2, 638.5)
+centered = false
+texture = ExtResource("a52")
+scale = Vector2(0.9999133408437936, 0.9999675010562156)
+
+[node name="Art_56_1594" type="Sprite2D" parent="."]
+position = Vector2(834.7, 636)
+centered = false
+texture = ExtResource("a54")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1595" type="Sprite2D" parent="."]
+position = Vector2(564.7, 462.5)
+centered = false
+texture = ExtResource("a52")
+scale = Vector2(0.9999133408437936, 0.9999675010562156)
+
+[node name="Art_56_1596" type="Sprite2D" parent="."]
+position = Vector2(565.2, 460)
+centered = false
+texture = ExtResource("a54")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1597" type="Sprite2D" parent="."]
+position = Vector2(618.6, 521.5)
+centered = false
+texture = ExtResource("a52")
+scale = Vector2(0.9999133408437936, 0.9999675010562156)
+
+[node name="Art_56_1598" type="Sprite2D" parent="."]
+position = Vector2(619.1, 519)
+centered = false
+texture = ExtResource("a53")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1599" type="Sprite2D" parent="."]
+position = Vector2(741.1, 545.5)
+centered = false
+texture = ExtResource("a52")
+scale = Vector2(0.9999133408437936, 0.9999675010562156)
+
+[node name="Art_56_1600" type="Sprite2D" parent="."]
+position = Vector2(741.6, 543)
+centered = false
+texture = ExtResource("a54")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1601" type="Sprite2D" parent="."]
+position = Vector2(795, 604.5)
+centered = false
+texture = ExtResource("a52")
+scale = Vector2(0.9999133408437936, 0.9999675010562156)
+
+[node name="Art_56_1602" type="Sprite2D" parent="."]
+position = Vector2(795.5, 602)
+centered = false
+texture = ExtResource("a54")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1603" type="Sprite2D" parent="."]
+position = Vector2(917.5, 628.5)
+centered = false
+texture = ExtResource("a52")
+scale = Vector2(0.9999133408437936, 0.9999675010562156)
+
+[node name="Art_56_1604" type="Sprite2D" parent="."]
+position = Vector2(918, 626)
+centered = false
+texture = ExtResource("a53")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1605" type="Sprite2D" parent="."]
+position = Vector2(579.4, 487.5)
+centered = false
+texture = ExtResource("a52")
+scale = Vector2(0.9999133408437936, 0.9999675010562156)
+
+[node name="Art_56_1606" type="Sprite2D" parent="."]
+position = Vector2(579.9, 485)
+centered = false
+texture = ExtResource("a54")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1607" type="Sprite2D" parent="."]
+position = Vector2(701.9, 511.5)
+centered = false
+texture = ExtResource("a52")
+scale = Vector2(0.9999133408437936, 0.9999675010562156)
+
+[node name="Art_56_1608" type="Sprite2D" parent="."]
+position = Vector2(702.4, 509)
+centered = false
+texture = ExtResource("a54")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1609" type="Sprite2D" parent="."]
+position = Vector2(755.8, 570.5)
+centered = false
+texture = ExtResource("a52")
+scale = Vector2(0.9999133408437936, 0.9999675010562156)
+
+[node name="Art_56_1610" type="Sprite2D" parent="."]
+position = Vector2(756.3, 568)
+centered = false
+texture = ExtResource("a53")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1611" type="Sprite2D" parent="."]
+position = Vector2(40, 36)
+centered = false
+texture = ExtResource("a55")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1612" type="Sprite2D" parent="."]
+position = Vector2(57, 51)
+centered = false
+texture = ExtResource("a56")
+scale = Vector2(0.9999923077514788, 0.999990909173553)
+
+[node name="Art_56_1613" type="Sprite2D" parent="."]
+position = Vector2(57, 60)
+centered = false
+texture = ExtResource("a57")
+scale = Vector2(0.9999923077514788, 0.999990909173553)
+
+[node name="Text_56_1614" type="Label" parent="."]
+offset_left = 109.0
+offset_top = 29.0
+offset_right = 254.0
+offset_bottom = 64.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.18823529411764706, 0.2901960784313726, 0.25882352941176473, 1)
+theme_override_fonts/font = ExtResource("bold")
+theme_override_font_sizes/font_size = 23
+text = "晚安，羊羊"
+
+[node name="Text_56_1615" type="Label" parent="."]
+offset_left = 110.0
+offset_top = 63.0
+offset_right = 273.0
+offset_bottom = 87.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.4549019607843137, 0.5176470588235295, 0.4666666666666667, 1)
+theme_override_fonts/font = ExtResource("font")
+theme_override_font_sizes/font_size = 14
+text = "第五关 · 山的那一边"
+
+[node name="Art_56_1616" type="Sprite2D" parent="."]
+position = Vector2(1213, 36)
+centered = false
+texture = ExtResource("a58")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1617" type="Sprite2D" parent="."]
+position = Vector2(1231, 50)
+centered = false
+texture = ExtResource("a59")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1618" type="Sprite2D" parent="."]
+position = Vector2(1235, 54)
+centered = false
+texture = ExtResource("a60")
+scale = Vector2(1.0, 1.0)
+
+[node name="Text_56_1619" type="Label" parent="."]
+offset_left = 1263.0
+offset_top = 44.0
+offset_right = 1319.0
+offset_bottom = 77.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.18823529411764706, 0.2901960784313726, 0.25882352941176473, 1)
+theme_override_fonts/font = ExtResource("bold")
+theme_override_font_sizes/font_size = 22
+text = "19"
+
+[node name="Text_56_1620" type="Label" parent="."]
+offset_left = 1304.0
+offset_top = 50.0
+offset_right = 1362.0
+offset_bottom = 74.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.4549019607843137, 0.5176470588235295, 0.4666666666666667, 1)
+theme_override_fonts/font = ExtResource("font")
+theme_override_font_sizes/font_size = 14
+text = "金币"
+
+[node name="Art_56_1621" type="Sprite2D" parent="."]
+position = Vector2(1353.5, 48.5)
+centered = false
+texture = ExtResource("a61")
+scale = Vector2(1.0, 1.0)
+
+[node name="Text_56_1622" type="Label" parent="."]
+offset_left = 1373.0
+offset_top = 52.0
+offset_right = 1431.0
+offset_bottom = 76.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.4549019607843137, 0.5176470588235295, 0.4666666666666667, 1)
+theme_override_fonts/font = ExtResource("font")
+theme_override_font_sizes/font_size = 14
+text = "账单"
+
+[node name="Art_56_1623" type="Sprite2D" parent="."]
+position = Vector2(1443, 36)
+centered = false
+texture = ExtResource("a55")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1624" type="Sprite2D" parent="."]
+position = Vector2(1460.5, 51.5)
+centered = false
+texture = ExtResource("a62")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1625" type="Sprite2D" parent="."]
+position = Vector2(1471.5, 51.5)
+centered = false
+texture = ExtResource("a62")
+scale = Vector2(1.0, 1.0)
+
+[node name="Art_56_1626" type="Sprite2D" parent="."]
+position = Vector2(1505, 36)
+centered = false
+texture = ExtResource("a63")
+scale = Vector2(1.0, 1.0)
+
+[node name="Text_56_1627" type="Label" parent="."]
+offset_left = 1522.0
+offset_top = 42.0
+offset_right = 1577.0
+offset_bottom = 79.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.18823529411764706, 0.2901960784313726, 0.25882352941176473, 1)
+theme_override_fonts/font = ExtResource("font")
+theme_override_font_sizes/font_size = 25
+text = "♪"
+
+[node name="Art_56_1628" type="Sprite2D" parent="."]
+position = Vector2(48, 131)
+centered = false
+texture = ExtResource("a64")
+scale = Vector2(1.0, 1.0)
+
+[node name="Text_56_1629" type="Label" parent="."]
+offset_left = 68.0
+offset_top = 140.0
+offset_right = 289.0
+offset_bottom = 170.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.18823529411764706, 0.2901960784313726, 0.25882352941176473, 1)
+theme_override_fonts/font = ExtResource("bold")
+theme_override_font_sizes/font_size = 19
+text = "今晚，照顾好 4 只小羊"
+
+[node name="Text_56_1630" type="Label" parent="."]
+offset_left = 68.0
+offset_top = 174.0
+offset_right = 238.0
+offset_bottom = 198.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.4549019607843137, 0.5176470588235295, 0.4666666666666667, 1)
+theme_override_fonts/font = ExtResource("font")
+theme_override_font_sizes/font_size = 14
+text = "草、水和空间都够了。"
+
+[node name="Art_56_1631" type="Sprite2D" parent="."]
+position = Vector2(49, 865)
+centered = false
+texture = ExtResource("a65")
+scale = Vector2(1.0, 1.0)
+
+[node name="Text_56_1632" type="Label" parent="."]
+offset_left = 78.0
+offset_top = 885.0
+offset_right = 196.0
+offset_bottom = 914.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.18823529411764706, 0.2901960784313726, 0.25882352941176473, 1)
+theme_override_fonts/font = ExtResource("font")
+theme_override_font_sizes/font_size = 18
+text = "选择 / 擦除"
+
+[node name="Art_56_1633" type="Sprite2D" parent="."]
+position = Vector2(603, 885)
+centered = false
+texture = ExtResource("a66")
+scale = Vector2(1.0, 1.0)
+
+[node name="Text_56_1634" type="Label" parent="."]
+offset_left = 631.0
+offset_top = 899.0
+offset_right = 896.0
+offset_bottom = 925.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.18823529411764706, 0.2901960784313726, 0.25882352941176473, 1)
+theme_override_fonts/font = ExtResource("font")
+theme_override_font_sizes/font_size = 16
+text = "4 只小羊 · 吃喝充足 · 空间够住"
+
+[node name="Art_56_1635" type="Sprite2D" parent="."]
+position = Vector2(1300, 866)
+centered = false
+texture = ExtResource("a67")
+scale = Vector2(1.0, 1.0)
+
+[node name="Text_56_1636" type="Label" parent="."]
+offset_left = 1351.0
+offset_top = 885.0
+offset_right = 1481.0
+offset_bottom = 916.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1.0, 0.984313725490196, 0.9176470588235294, 1)
+theme_override_fonts/font = ExtResource("font")
+theme_override_font_sizes/font_size = 20
+text = "让夜晚到来"
+
+[node name="Text_56_1637" type="Label" parent="."]
+offset_left = 1315.0
+offset_top = 938.0
+offset_right = 1475.0
+offset_bottom = 961.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.4549019607843137, 0.5176470588235295, 0.4666666666666667, 1)
+theme_override_fonts/font = ExtResource("font")
+theme_override_font_sizes/font_size = 13
+text = "随时可以继续调整草地"
+
+[node name="Art_56_1638" type="Sprite2D" parent="."]
+position = Vector2(49, 235)
+centered = false
+texture = ExtResource("a68")
+scale = Vector2(1.0, 1.0)
+
+[node name="Text_56_1639" type="Label" parent="."]
+offset_left = 65.0
+offset_top = 243.0
+offset_right = 215.0
+offset_bottom = 266.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.4549019607843137, 0.5176470588235295, 0.4666666666666667, 1)
+theme_override_fonts/font = ExtResource("font")
+theme_override_font_sizes/font_size = 13
+text = "补给库存 草 0 · 水 0"
+
+[node name="Art_58_2" type="Sprite2D" parent="."]
+position = Vector2(49, 795)
+centered = false
+texture = ExtResource("a69")
+scale = Vector2(1.0, 1.0)

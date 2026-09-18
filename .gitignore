@@ -1,0 +1,12 @@
+/tmp/
+/output/
+/五种美术风格/
+**/.godot/
+**/__pycache__/
+godot-paper-pasture/source/*context.txt
+godot-paper-pasture/source/*props.json
+godot-paper-pasture/source/asset-manifest.json
+godot-paper-pasture/assets/fonts/*.import
+godot-paper-pasture/verification/*.png
+godot-paper-pasture/verification/*.log
+godot-paper-pasture/verification/*.import
