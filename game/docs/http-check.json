@@ -1,0 +1,22 @@
+{
+  "index.html": {
+    "status": 200,
+    "mime": "text/html",
+    "bytes": "5447"
+  },
+  "index.js": {
+    "status": 200,
+    "mime": "text/javascript",
+    "bytes": "305185"
+  },
+  "index.wasm": {
+    "status": 200,
+    "mime": "application/wasm",
+    "bytes": "38047590"
+  },
+  "index.pck": {
+    "status": 200,
+    "mime": "application/octet-stream",
+    "bytes": "14451256"
+  }
+}

@@ -1,0 +1,5 @@
+.godot/
+builds/
+tools/downloads/
+tools/templates/
+tools/__pycache__/

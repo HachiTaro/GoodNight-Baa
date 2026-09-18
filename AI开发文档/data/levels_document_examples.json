@@ -1,0 +1,1938 @@
+{
+  "schema_version": 1,
+  "note": "Levels 1-2 follow V3 examples; levels 3-8 are unapproved playable candidates.",
+  "levels": [
+    {
+      "schema_version": 1,
+      "id": "level_01",
+      "title": "给两只羊一个家",
+      "status": "source_example",
+      "revision": 1,
+      "width": 6,
+      "height": 5,
+      "terrain_rows": [
+        "......",
+        "..gg..",
+        "..gg..",
+        "......",
+        "......"
+      ],
+      "sheep": [
+        {
+          "id": "s01",
+          "x": 3,
+          "y": 3
+        },
+        {
+          "id": "s02",
+          "x": 4,
+          "y": 3
+        }
+      ],
+      "wolf_entries": [
+        {
+          "id": "wolf_01",
+          "x": 0,
+          "y": 3
+        }
+      ],
+      "budget": 16,
+      "initial_inventory": {
+        "grass": 0,
+        "water": 0
+      },
+      "star_thresholds": {
+        "three": 12,
+        "two": 14
+      },
+      "pk_config": {
+        "enabled": false,
+        "target_seconds": null,
+        "correct_to_win": 5
+      },
+      "objective_key": "level.01.request",
+      "tutorial_id": "tutorial_01",
+      "season": "spring",
+      "reference_solutions": [
+        {
+          "id": "reference",
+          "selected_cells": [
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              3
+            ]
+          ],
+          "buy_grass": 0,
+          "buy_water_buckets": 1,
+          "discount": false,
+          "expected": {
+            "components": [
+              {
+                "area": 4,
+                "perimeter": 8,
+                "water_edges": 0,
+                "fence": 8,
+                "sheep": 2,
+                "natural_grass": 4,
+                "grass_gap": 0,
+                "water_gap": 2
+              }
+            ],
+            "area": 4,
+            "perimeter": 8,
+            "water_edges": 0,
+            "fence": 8,
+            "grass_gap": 0,
+            "water_gap": 2,
+            "supply_cost": 4,
+            "total": 12,
+            "balance": 4,
+            "stars": 3,
+            "water_remaining": 2
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "level_02",
+      "title": "借一段水岸",
+      "status": "source_example",
+      "revision": 1,
+      "width": 8,
+      "height": 6,
+      "terrain_rows": [
+        "........",
+        "........",
+        ".ggggW..",
+        ".gggg...",
+        "........",
+        "........"
+      ],
+      "sheep": [
+        {
+          "id": "s01",
+          "x": 3,
+          "y": 3
+        },
+        {
+          "id": "s02",
+          "x": 4,
+          "y": 3
+        },
+        {
+          "id": "s03",
+          "x": 3,
+          "y": 4
+        },
+        {
+          "id": "s04",
+          "x": 4,
+          "y": 4
+        }
+      ],
+      "wolf_entries": [
+        {
+          "id": "wolf_01",
+          "x": 9,
+          "y": 3
+        }
+      ],
+      "budget": 24,
+      "initial_inventory": {
+        "grass": 0,
+        "water": 0
+      },
+      "star_thresholds": {
+        "three": 11,
+        "two": 16
+      },
+      "pk_config": {
+        "enabled": false,
+        "target_seconds": null,
+        "correct_to_win": 5
+      },
+      "objective_key": "level.02.request",
+      "tutorial_id": "tutorial_02",
+      "season": "spring",
+      "reference_solutions": [
+        {
+          "id": "vertical",
+          "selected_cells": [
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "buy_grass": 4,
+          "buy_water_buckets": 1,
+          "discount": false,
+          "expected": {
+            "components": [
+              {
+                "area": 8,
+                "perimeter": 12,
+                "water_edges": 0,
+                "fence": 12,
+                "sheep": 4,
+                "natural_grass": 4,
+                "grass_gap": 4,
+                "water_gap": 4
+              }
+            ],
+            "area": 8,
+            "perimeter": 12,
+            "water_edges": 0,
+            "fence": 12,
+            "grass_gap": 4,
+            "water_gap": 4,
+            "supply_cost": 12,
+            "total": 24,
+            "balance": 0,
+            "stars": 1,
+            "water_remaining": 0
+          }
+        },
+        {
+          "id": "horizontal",
+          "selected_cells": [
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              4
+            ]
+          ],
+          "buy_grass": 0,
+          "buy_water_buckets": 0,
+          "discount": false,
+          "expected": {
+            "components": [
+              {
+                "area": 8,
+                "perimeter": 12,
+                "water_edges": 1,
+                "fence": 11,
+                "sheep": 4,
+                "natural_grass": 8,
+                "grass_gap": 0,
+                "water_gap": 0
+              }
+            ],
+            "area": 8,
+            "perimeter": 12,
+            "water_edges": 1,
+            "fence": 11,
+            "grass_gap": 0,
+            "water_gap": 0,
+            "supply_cost": 0,
+            "total": 11,
+            "balance": 13,
+            "stars": 3,
+            "water_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "level_03",
+      "title": "草在哪里",
+      "status": "candidate",
+      "revision": 1,
+      "width": 9,
+      "height": 6,
+      "terrain_rows": [
+        ".........",
+        ".........",
+        ".....gg..",
+        "..gg.gg..",
+        ".........",
+        "........."
+      ],
+      "sheep": [
+        {
+          "id": "s01",
+          "x": 3,
+          "y": 4
+        },
+        {
+          "id": "s02",
+          "x": 4,
+          "y": 4
+        }
+      ],
+      "wolf_entries": [
+        {
+          "id": "wolf_01",
+          "x": 0,
+          "y": 3
+        }
+      ],
+      "budget": 20,
+      "initial_inventory": {
+        "grass": 0,
+        "water": 0
+      },
+      "star_thresholds": {
+        "three": 16,
+        "two": 18
+      },
+      "pk_config": {
+        "enabled": false,
+        "target_seconds": null,
+        "correct_to_win": 5
+      },
+      "objective_key": "level.03.request",
+      "tutorial_id": "",
+      "season": "spring",
+      "reference_solutions": [
+        {
+          "id": "compact_buy",
+          "selected_cells": [
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "buy_grass": 2,
+          "buy_water_buckets": 1,
+          "discount": false,
+          "expected": {
+            "components": [
+              {
+                "area": 4,
+                "perimeter": 8,
+                "water_edges": 0,
+                "fence": 8,
+                "sheep": 2,
+                "natural_grass": 2,
+                "grass_gap": 2,
+                "water_gap": 2
+              }
+            ],
+            "area": 4,
+            "perimeter": 8,
+            "water_edges": 0,
+            "fence": 8,
+            "grass_gap": 2,
+            "water_gap": 2,
+            "supply_cost": 8,
+            "total": 16,
+            "balance": 4,
+            "stars": 3,
+            "water_remaining": 2
+          }
+        },
+        {
+          "id": "expand_grass",
+          "selected_cells": [
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              6,
+              4
+            ],
+            [
+              7,
+              4
+            ]
+          ],
+          "buy_grass": 0,
+          "buy_water_buckets": 1,
+          "discount": false,
+          "expected": {
+            "components": [
+              {
+                "area": 10,
+                "perimeter": 14,
+                "water_edges": 0,
+                "fence": 14,
+                "sheep": 2,
+                "natural_grass": 6,
+                "grass_gap": 0,
+                "water_gap": 2
+              }
+            ],
+            "area": 10,
+            "perimeter": 14,
+            "water_edges": 0,
+            "fence": 14,
+            "grass_gap": 0,
+            "water_gap": 2,
+            "supply_cost": 4,
+            "total": 18,
+            "balance": 2,
+            "stars": 2,
+            "water_remaining": 2
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "level_04",
+      "title": "山的两边",
+      "status": "candidate",
+      "revision": 1,
+      "width": 9,
+      "height": 6,
+      "terrain_rows": [
+        ".........",
+        "....R....",
+        ".gg.R.gg.",
+        ".gg.R.gg.",
+        "....R....",
+        "........."
+      ],
+      "sheep": [
+        {
+          "id": "s01",
+          "x": 2,
+          "y": 3
+        },
+        {
+          "id": "s02",
+          "x": 3,
+          "y": 3
+        },
+        {
+          "id": "s03",
+          "x": 7,
+          "y": 3
+        },
+        {
+          "id": "s04",
+          "x": 8,
+          "y": 3
+        }
+      ],
+      "wolf_entries": [
+        {
+          "id": "wolf_01",
+          "x": 0,
+          "y": 3
+        }
+      ],
+      "budget": 24,
+      "initial_inventory": {
+        "grass": 0,
+        "water": 0
+      },
+      "star_thresholds": {
+        "three": 20,
+        "two": 22
+      },
+      "pk_config": {
+        "enabled": false,
+        "target_seconds": null,
+        "correct_to_win": 5
+      },
+      "objective_key": "level.04.request",
+      "tutorial_id": "",
+      "season": "spring",
+      "reference_solutions": [
+        {
+          "id": "separate",
+          "selected_cells": [
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              8,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              7,
+              4
+            ],
+            [
+              8,
+              4
+            ]
+          ],
+          "buy_grass": 0,
+          "buy_water_buckets": 1,
+          "discount": false,
+          "expected": {
+            "components": [
+              {
+                "area": 4,
+                "perimeter": 8,
+                "water_edges": 0,
+                "fence": 8,
+                "sheep": 2,
+                "natural_grass": 4,
+                "grass_gap": 0,
+                "water_gap": 2
+              },
+              {
+                "area": 4,
+                "perimeter": 8,
+                "water_edges": 0,
+                "fence": 8,
+                "sheep": 2,
+                "natural_grass": 4,
+                "grass_gap": 0,
+                "water_gap": 2
+              }
+            ],
+            "area": 8,
+            "perimeter": 16,
+            "water_edges": 0,
+            "fence": 16,
+            "grass_gap": 0,
+            "water_gap": 4,
+            "supply_cost": 4,
+            "total": 20,
+            "balance": 4,
+            "stars": 3,
+            "water_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "level_05",
+      "title": "连成一家",
+      "status": "candidate",
+      "revision": 1,
+      "width": 13,
+      "height": 6,
+      "terrain_rows": [
+        ".............",
+        ".............",
+        "W..RRRRRgggg.",
+        "........gggg.",
+        ".............",
+        "............."
+      ],
+      "sheep": [
+        {
+          "id": "s01",
+          "x": 2,
+          "y": 3
+        },
+        {
+          "id": "s02",
+          "x": 3,
+          "y": 3
+        },
+        {
+          "id": "s03",
+          "x": 10,
+          "y": 3
+        },
+        {
+          "id": "s04",
+          "x": 11,
+          "y": 3
+        }
+      ],
+      "wolf_entries": [
+        {
+          "id": "wolf_01",
+          "x": 0,
+          "y": 3
+        }
+      ],
+      "budget": 32,
+      "initial_inventory": {
+        "grass": 0,
+        "water": 0
+      },
+      "star_thresholds": {
+        "three": 27,
+        "two": 29
+      },
+      "pk_config": {
+        "enabled": false,
+        "target_seconds": null,
+        "correct_to_win": 5
+      },
+      "objective_key": "level.05.request",
+      "tutorial_id": "",
+      "season": "spring",
+      "reference_solutions": [
+        {
+          "id": "separate",
+          "selected_cells": [
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              9,
+              3
+            ],
+            [
+              10,
+              3
+            ],
+            [
+              11,
+              3
+            ],
+            [
+              12,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              9,
+              4
+            ],
+            [
+              10,
+              4
+            ],
+            [
+              11,
+              4
+            ],
+            [
+              12,
+              4
+            ]
+          ],
+          "buy_grass": 4,
+          "buy_water_buckets": 1,
+          "discount": false,
+          "expected": {
+            "components": [
+              {
+                "area": 4,
+                "perimeter": 8,
+                "water_edges": 1,
+                "fence": 7,
+                "sheep": 2,
+                "natural_grass": 0,
+                "grass_gap": 4,
+                "water_gap": 0
+              },
+              {
+                "area": 8,
+                "perimeter": 12,
+                "water_edges": 0,
+                "fence": 12,
+                "sheep": 2,
+                "natural_grass": 8,
+                "grass_gap": 0,
+                "water_gap": 2
+              }
+            ],
+            "area": 12,
+            "perimeter": 20,
+            "water_edges": 1,
+            "fence": 19,
+            "grass_gap": 4,
+            "water_gap": 2,
+            "supply_cost": 12,
+            "total": 31,
+            "balance": 1,
+            "stars": 1,
+            "water_remaining": 2
+          }
+        },
+        {
+          "id": "connected",
+          "selected_cells": [
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              9,
+              3
+            ],
+            [
+              10,
+              3
+            ],
+            [
+              11,
+              3
+            ],
+            [
+              12,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              6,
+              4
+            ],
+            [
+              7,
+              4
+            ],
+            [
+              8,
+              4
+            ],
+            [
+              9,
+              4
+            ],
+            [
+              10,
+              4
+            ],
+            [
+              11,
+              4
+            ],
+            [
+              12,
+              4
+            ]
+          ],
+          "buy_grass": 0,
+          "buy_water_buckets": 0,
+          "discount": false,
+          "expected": {
+            "components": [
+              {
+                "area": 17,
+                "perimeter": 28,
+                "water_edges": 1,
+                "fence": 27,
+                "sheep": 4,
+                "natural_grass": 8,
+                "grass_gap": 0,
+                "water_gap": 0
+              }
+            ],
+            "area": 17,
+            "perimeter": 28,
+            "water_edges": 1,
+            "fence": 27,
+            "grass_gap": 0,
+            "water_gap": 0,
+            "supply_cost": 0,
+            "total": 27,
+            "balance": 5,
+            "stars": 3,
+            "water_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "level_06",
+      "title": "商人的挑战",
+      "status": "candidate",
+      "revision": 1,
+      "width": 7,
+      "height": 5,
+      "terrain_rows": [
+        ".......",
+        ".......",
+        "..gg...",
+        ".......",
+        "......."
+      ],
+      "sheep": [
+        {
+          "id": "s01",
+          "x": 3,
+          "y": 3
+        },
+        {
+          "id": "s02",
+          "x": 4,
+          "y": 3
+        }
+      ],
+      "wolf_entries": [
+        {
+          "id": "wolf_01",
+          "x": 0,
+          "y": 3
+        }
+      ],
+      "budget": 18,
+      "initial_inventory": {
+        "grass": 0,
+        "water": 0
+      },
+      "star_thresholds": {
+        "three": 12,
+        "two": 14
+      },
+      "pk_config": {
+        "enabled": true,
+        "target_seconds": 30,
+        "correct_to_win": 5
+      },
+      "objective_key": "level.06.request",
+      "tutorial_id": "",
+      "season": "spring",
+      "reference_solutions": [
+        {
+          "id": "regular",
+          "selected_cells": [
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              3
+            ]
+          ],
+          "buy_grass": 2,
+          "buy_water_buckets": 1,
+          "discount": false,
+          "expected": {
+            "components": [
+              {
+                "area": 4,
+                "perimeter": 8,
+                "water_edges": 0,
+                "fence": 8,
+                "sheep": 2,
+                "natural_grass": 2,
+                "grass_gap": 2,
+                "water_gap": 2
+              }
+            ],
+            "area": 4,
+            "perimeter": 8,
+            "water_edges": 0,
+            "fence": 8,
+            "grass_gap": 2,
+            "water_gap": 2,
+            "supply_cost": 8,
+            "total": 16,
+            "balance": 2,
+            "stars": 1,
+            "water_remaining": 2
+          }
+        },
+        {
+          "id": "discount",
+          "selected_cells": [
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              3
+            ]
+          ],
+          "buy_grass": 2,
+          "buy_water_buckets": 1,
+          "discount": true,
+          "expected": {
+            "components": [
+              {
+                "area": 4,
+                "perimeter": 8,
+                "water_edges": 0,
+                "fence": 8,
+                "sheep": 2,
+                "natural_grass": 2,
+                "grass_gap": 2,
+                "water_gap": 2
+              }
+            ],
+            "area": 4,
+            "perimeter": 8,
+            "water_edges": 0,
+            "fence": 8,
+            "grass_gap": 2,
+            "water_gap": 2,
+            "supply_cost": 4,
+            "total": 12,
+            "balance": 6,
+            "stars": 3,
+            "water_remaining": 2
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "level_07",
+      "title": "今天有折扣",
+      "status": "candidate",
+      "revision": 1,
+      "width": 13,
+      "height": 6,
+      "terrain_rows": [
+        ".............",
+        ".............",
+        "W..RRRRRgggg.",
+        "........gggg.",
+        ".............",
+        "............."
+      ],
+      "sheep": [
+        {
+          "id": "s01",
+          "x": 2,
+          "y": 3
+        },
+        {
+          "id": "s02",
+          "x": 3,
+          "y": 3
+        },
+        {
+          "id": "s03",
+          "x": 10,
+          "y": 3
+        },
+        {
+          "id": "s04",
+          "x": 11,
+          "y": 3
+        }
+      ],
+      "wolf_entries": [
+        {
+          "id": "wolf_01",
+          "x": 0,
+          "y": 3
+        }
+      ],
+      "budget": 32,
+      "initial_inventory": {
+        "grass": 0,
+        "water": 0
+      },
+      "star_thresholds": {
+        "three": 25,
+        "two": 27
+      },
+      "pk_config": {
+        "enabled": true,
+        "target_seconds": 25,
+        "correct_to_win": 5
+      },
+      "objective_key": "level.07.request",
+      "tutorial_id": "",
+      "season": "spring",
+      "reference_solutions": [
+        {
+          "id": "separate_regular",
+          "selected_cells": [
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              9,
+              3
+            ],
+            [
+              10,
+              3
+            ],
+            [
+              11,
+              3
+            ],
+            [
+              12,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              9,
+              4
+            ],
+            [
+              10,
+              4
+            ],
+            [
+              11,
+              4
+            ],
+            [
+              12,
+              4
+            ]
+          ],
+          "buy_grass": 4,
+          "buy_water_buckets": 1,
+          "discount": false,
+          "expected": {
+            "components": [
+              {
+                "area": 4,
+                "perimeter": 8,
+                "water_edges": 1,
+                "fence": 7,
+                "sheep": 2,
+                "natural_grass": 0,
+                "grass_gap": 4,
+                "water_gap": 0
+              },
+              {
+                "area": 8,
+                "perimeter": 12,
+                "water_edges": 0,
+                "fence": 12,
+                "sheep": 2,
+                "natural_grass": 8,
+                "grass_gap": 0,
+                "water_gap": 2
+              }
+            ],
+            "area": 12,
+            "perimeter": 20,
+            "water_edges": 1,
+            "fence": 19,
+            "grass_gap": 4,
+            "water_gap": 2,
+            "supply_cost": 12,
+            "total": 31,
+            "balance": 1,
+            "stars": 1,
+            "water_remaining": 2
+          }
+        },
+        {
+          "id": "connected_regular",
+          "selected_cells": [
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              9,
+              3
+            ],
+            [
+              10,
+              3
+            ],
+            [
+              11,
+              3
+            ],
+            [
+              12,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              6,
+              4
+            ],
+            [
+              7,
+              4
+            ],
+            [
+              8,
+              4
+            ],
+            [
+              9,
+              4
+            ],
+            [
+              10,
+              4
+            ],
+            [
+              11,
+              4
+            ],
+            [
+              12,
+              4
+            ]
+          ],
+          "buy_grass": 0,
+          "buy_water_buckets": 0,
+          "discount": false,
+          "expected": {
+            "components": [
+              {
+                "area": 17,
+                "perimeter": 28,
+                "water_edges": 1,
+                "fence": 27,
+                "sheep": 4,
+                "natural_grass": 8,
+                "grass_gap": 0,
+                "water_gap": 0
+              }
+            ],
+            "area": 17,
+            "perimeter": 28,
+            "water_edges": 1,
+            "fence": 27,
+            "grass_gap": 0,
+            "water_gap": 0,
+            "supply_cost": 0,
+            "total": 27,
+            "balance": 5,
+            "stars": 2,
+            "water_remaining": 0
+          }
+        },
+        {
+          "id": "separate_discount",
+          "selected_cells": [
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              9,
+              3
+            ],
+            [
+              10,
+              3
+            ],
+            [
+              11,
+              3
+            ],
+            [
+              12,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              9,
+              4
+            ],
+            [
+              10,
+              4
+            ],
+            [
+              11,
+              4
+            ],
+            [
+              12,
+              4
+            ]
+          ],
+          "buy_grass": 4,
+          "buy_water_buckets": 1,
+          "discount": true,
+          "expected": {
+            "components": [
+              {
+                "area": 4,
+                "perimeter": 8,
+                "water_edges": 1,
+                "fence": 7,
+                "sheep": 2,
+                "natural_grass": 0,
+                "grass_gap": 4,
+                "water_gap": 0
+              },
+              {
+                "area": 8,
+                "perimeter": 12,
+                "water_edges": 0,
+                "fence": 12,
+                "sheep": 2,
+                "natural_grass": 8,
+                "grass_gap": 0,
+                "water_gap": 2
+              }
+            ],
+            "area": 12,
+            "perimeter": 20,
+            "water_edges": 1,
+            "fence": 19,
+            "grass_gap": 4,
+            "water_gap": 2,
+            "supply_cost": 6,
+            "total": 25,
+            "balance": 7,
+            "stars": 3,
+            "water_remaining": 2
+          }
+        },
+        {
+          "id": "connected_discount",
+          "selected_cells": [
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              9,
+              3
+            ],
+            [
+              10,
+              3
+            ],
+            [
+              11,
+              3
+            ],
+            [
+              12,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              6,
+              4
+            ],
+            [
+              7,
+              4
+            ],
+            [
+              8,
+              4
+            ],
+            [
+              9,
+              4
+            ],
+            [
+              10,
+              4
+            ],
+            [
+              11,
+              4
+            ],
+            [
+              12,
+              4
+            ]
+          ],
+          "buy_grass": 0,
+          "buy_water_buckets": 0,
+          "discount": true,
+          "expected": {
+            "components": [
+              {
+                "area": 17,
+                "perimeter": 28,
+                "water_edges": 1,
+                "fence": 27,
+                "sheep": 4,
+                "natural_grass": 8,
+                "grass_gap": 0,
+                "water_gap": 0
+              }
+            ],
+            "area": 17,
+            "perimeter": 28,
+            "water_edges": 1,
+            "fence": 27,
+            "grass_gap": 0,
+            "water_gap": 0,
+            "supply_cost": 0,
+            "total": 27,
+            "balance": 5,
+            "stars": 2,
+            "water_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": 1,
+      "id": "level_08",
+      "title": "晚安大草原",
+      "status": "candidate",
+      "revision": 1,
+      "width": 13,
+      "height": 6,
+      "terrain_rows": [
+        ".............",
+        ".............",
+        "W..RRRRRgggg.",
+        "........gggg.",
+        ".............",
+        "............."
+      ],
+      "sheep": [
+        {
+          "id": "s01",
+          "x": 2,
+          "y": 3
+        },
+        {
+          "id": "s02",
+          "x": 3,
+          "y": 3
+        },
+        {
+          "id": "s03",
+          "x": 9,
+          "y": 3
+        },
+        {
+          "id": "s04",
+          "x": 10,
+          "y": 3
+        },
+        {
+          "id": "s05",
+          "x": 11,
+          "y": 3
+        },
+        {
+          "id": "s06",
+          "x": 12,
+          "y": 3
+        }
+      ],
+      "wolf_entries": [
+        {
+          "id": "wolf_01",
+          "x": 0,
+          "y": 3
+        }
+      ],
+      "budget": 40,
+      "initial_inventory": {
+        "grass": 0,
+        "water": 0
+      },
+      "star_thresholds": {
+        "three": 31,
+        "two": 35
+      },
+      "pk_config": {
+        "enabled": true,
+        "target_seconds": 22,
+        "correct_to_win": 5
+      },
+      "objective_key": "level.08.request",
+      "tutorial_id": "",
+      "season": "spring",
+      "reference_solutions": [
+        {
+          "id": "separate_regular",
+          "selected_cells": [
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              9,
+              3
+            ],
+            [
+              10,
+              3
+            ],
+            [
+              11,
+              3
+            ],
+            [
+              12,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              9,
+              4
+            ],
+            [
+              10,
+              4
+            ],
+            [
+              11,
+              4
+            ],
+            [
+              12,
+              4
+            ]
+          ],
+          "buy_grass": 4,
+          "buy_water_buckets": 1,
+          "discount": false,
+          "expected": {
+            "components": [
+              {
+                "area": 4,
+                "perimeter": 8,
+                "water_edges": 1,
+                "fence": 7,
+                "sheep": 2,
+                "natural_grass": 0,
+                "grass_gap": 4,
+                "water_gap": 0
+              },
+              {
+                "area": 8,
+                "perimeter": 12,
+                "water_edges": 0,
+                "fence": 12,
+                "sheep": 4,
+                "natural_grass": 8,
+                "grass_gap": 0,
+                "water_gap": 4
+              }
+            ],
+            "area": 12,
+            "perimeter": 20,
+            "water_edges": 1,
+            "fence": 19,
+            "grass_gap": 4,
+            "water_gap": 4,
+            "supply_cost": 12,
+            "total": 31,
+            "balance": 9,
+            "stars": 3,
+            "water_remaining": 0
+          }
+        },
+        {
+          "id": "connected_regular",
+          "selected_cells": [
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              9,
+              3
+            ],
+            [
+              10,
+              3
+            ],
+            [
+              11,
+              3
+            ],
+            [
+              12,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              6,
+              4
+            ],
+            [
+              7,
+              4
+            ],
+            [
+              8,
+              4
+            ],
+            [
+              9,
+              4
+            ],
+            [
+              10,
+              4
+            ],
+            [
+              11,
+              4
+            ],
+            [
+              12,
+              4
+            ]
+          ],
+          "buy_grass": 4,
+          "buy_water_buckets": 0,
+          "discount": false,
+          "expected": {
+            "components": [
+              {
+                "area": 17,
+                "perimeter": 28,
+                "water_edges": 1,
+                "fence": 27,
+                "sheep": 6,
+                "natural_grass": 8,
+                "grass_gap": 4,
+                "water_gap": 0
+              }
+            ],
+            "area": 17,
+            "perimeter": 28,
+            "water_edges": 1,
+            "fence": 27,
+            "grass_gap": 4,
+            "water_gap": 0,
+            "supply_cost": 8,
+            "total": 35,
+            "balance": 5,
+            "stars": 2,
+            "water_remaining": 0
+          }
+        },
+        {
+          "id": "separate_discount",
+          "selected_cells": [
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              9,
+              3
+            ],
+            [
+              10,
+              3
+            ],
+            [
+              11,
+              3
+            ],
+            [
+              12,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              9,
+              4
+            ],
+            [
+              10,
+              4
+            ],
+            [
+              11,
+              4
+            ],
+            [
+              12,
+              4
+            ]
+          ],
+          "buy_grass": 4,
+          "buy_water_buckets": 1,
+          "discount": true,
+          "expected": {
+            "components": [
+              {
+                "area": 4,
+                "perimeter": 8,
+                "water_edges": 1,
+                "fence": 7,
+                "sheep": 2,
+                "natural_grass": 0,
+                "grass_gap": 4,
+                "water_gap": 0
+              },
+              {
+                "area": 8,
+                "perimeter": 12,
+                "water_edges": 0,
+                "fence": 12,
+                "sheep": 4,
+                "natural_grass": 8,
+                "grass_gap": 0,
+                "water_gap": 4
+              }
+            ],
+            "area": 12,
+            "perimeter": 20,
+            "water_edges": 1,
+            "fence": 19,
+            "grass_gap": 4,
+            "water_gap": 4,
+            "supply_cost": 6,
+            "total": 25,
+            "balance": 15,
+            "stars": 3,
+            "water_remaining": 0
+          }
+        },
+        {
+          "id": "connected_discount",
+          "selected_cells": [
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              9,
+              3
+            ],
+            [
+              10,
+              3
+            ],
+            [
+              11,
+              3
+            ],
+            [
+              12,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              6,
+              4
+            ],
+            [
+              7,
+              4
+            ],
+            [
+              8,
+              4
+            ],
+            [
+              9,
+              4
+            ],
+            [
+              10,
+              4
+            ],
+            [
+              11,
+              4
+            ],
+            [
+              12,
+              4
+            ]
+          ],
+          "buy_grass": 4,
+          "buy_water_buckets": 0,
+          "discount": true,
+          "expected": {
+            "components": [
+              {
+                "area": 17,
+                "perimeter": 28,
+                "water_edges": 1,
+                "fence": 27,
+                "sheep": 6,
+                "natural_grass": 8,
+                "grass_gap": 4,
+                "water_gap": 0
+              }
+            ],
+            "area": 17,
+            "perimeter": 28,
+            "water_edges": 1,
+            "fence": 27,
+            "grass_gap": 4,
+            "water_gap": 0,
+            "supply_cost": 4,
+            "total": 31,
+            "balance": 9,
+            "stars": 3,
+            "water_remaining": 0
+          }
+        }
+      ]
+    }
+  ]
+}

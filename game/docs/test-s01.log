@@ -1,0 +1,104 @@
+Godot Engine v4.5.2.stable.official.6ce3de25a - https://godotengine.org
+
+S00 READY count=0
+PASS S00 initial zero
+S00 COUNT=1
+S00 COUNT=2
+S00 COUNT=3
+PASS S00 three signals still work
+S01 PAGE=home
+PASS Boot routes home
+PASS no save disables continue
+PASS town rejects missing run
+PASS available button Start
+S01 PAGE=ranch
+PASS first start enters ranch
+PASS unfinished gameplay disabled
+PASS available button Pet
+PASS available button Town
+S01 PAGE=town
+PASS unfinished shop disabled
+PASS available button Ranch
+S01 PAGE=ranch
+PASS ranch town roundtrip preserves session
+PASS available button Settings
+PASS settings opens modal
+PASS modal rejects application commands
+PASS background keyboard focus disabled
+PASS modal pointer does not reach underlying interaction
+PASS music slider updates state
+PASS music bus applies setting
+PASS master zero mutes audio
+PASS sfx independent bus
+PASS Escape closes modal
+PASS modal restores focus
+PASS available button Pet
+PASS reduced motion keeps visual stationary
+PASS available button Map
+S01 PAGE=map
+PASS locked level 2
+PASS locked level 3
+PASS locked level 4
+PASS locked level 5
+PASS locked level 6
+PASS locked level 7
+PASS locked level 8
+PASS available button Home
+S01 PAGE=home
+PASS in-memory session is not a saved game
+PASS available button Start
+PASS existing run requires confirmation
+PASS cancel restart preserves run
+PASS available button Start
+S01 PAGE=ranch
+PASS confirmed restart replaces run
+PASS restart preserves settings
+S01 PAGE=town
+S01 PAGE=ranch
+S01 PAGE=town
+S01 PAGE=ranch
+S01 PAGE=town
+S01 PAGE=ranch
+S01 PAGE=town
+S01 PAGE=ranch
+S01 PAGE=town
+S01 PAGE=ranch
+S01 PAGE=town
+S01 PAGE=ranch
+S01 PAGE=town
+S01 PAGE=ranch
+S01 PAGE=town
+S01 PAGE=ranch
+S01 PAGE=town
+S01 PAGE=ranch
+S01 PAGE=town
+S01 PAGE=ranch
+S01 PAGE=town
+S01 PAGE=ranch
+S01 PAGE=town
+S01 PAGE=ranch
+S01 PAGE=town
+S01 PAGE=ranch
+S01 PAGE=town
+S01 PAGE=ranch
+S01 PAGE=town
+S01 PAGE=ranch
+S01 PAGE=town
+S01 PAGE=ranch
+S01 PAGE=town
+S01 PAGE=ranch
+S01 PAGE=town
+S01 PAGE=ranch
+S01 PAGE=town
+S01 PAGE=ranch
+S01 PAGE=town
+S01 PAGE=ranch
+PASS 20 roundtrips retain one page
+PASS 20 roundtrips no stale subscriptions
+PASS write failure reported
+S01 PAGE=home
+PASS new application restores settings
+PASS relaunch does not fake gameplay save
+PASS home fits width (960, 540)
+PASS home fits width (1280, 720)
+S01 RESULT checks=49 failed=0

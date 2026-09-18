@@ -1,0 +1,58 @@
+Godot Engine v4.5.2.stable.official.6ce3de25a - https://godotengine.org
+
+[   0% ] first_scan_filesystem | Started 项目初始化 (5 steps)
+[   0% ] first_scan_filesystem | 正在扫描文件结构……
+[  16% ] first_scan_filesystem | 正在加载全局类名……
+[  33% ] first_scan_filesystem | 正在校验 GDExtension……
+[  50% ] first_scan_filesystem | 正在创建自动加载脚本……
+[  66% ] first_scan_filesystem | 正在初始化插件……
+[  83% ] first_scan_filesystem | 正在启动文件扫描……
+[ DONE ] first_scan_filesystem
+
+[   0% ] savepack | Started 打包中 (102 steps)
+[   1% ] savepack | 保存文件：res://.godot/imported/NotoSansCJKsc-Regular.otf-234b66ec4f6090cf3cb4fe9bcf1a8765.fontdata
+[   1% ] savepack | 保存文件：res://assets/fonts/NotoSansCJKsc-Regular.otf.import
+[   5% ] savepack | 保存文件：res://content/text/zh_CN.json
+[  10% ] savepack | 保存文件：res://.godot/exported/133200997/export-44b2af1ffd972b1b8a4ae165be869a85-Boot.scn
+[  15% ] savepack | 保存文件：res://.godot/exported/133200997/export-2b8eb3d4a2d5e9edbdb5146c71e5381f-Home.scn
+[  20% ] savepack | 保存文件：res://.godot/exported/133200997/export-2f89c43762131b3c3f99f2f33e02d991-LevelMap.scn
+[  24% ] savepack | 保存文件：res://.godot/exported/133200997/export-a832de35fcb0def1b53e240519b8bb4c-S00Probe.scn
+[  29% ] savepack | 保存文件：res://.godot/exported/133200997/export-d22a43f6b2b49e28c0d5d6acc57a4aaf-ModalHost.scn
+[  33% ] savepack | 保存文件：res://.godot/exported/133200997/export-6f55fee7840d46e7014737ac22133e5f-Settings.scn
+[  38% ] savepack | 保存文件：res://.godot/exported/133200997/export-df998574e4f5109ba53bc6261b4b170a-Ranch.scn
+[  42% ] savepack | 保存文件：res://.godot/exported/133200997/export-43ab57e11ebe7b2d1971098d38946992-Town.scn
+[  47% ] savepack | 保存文件：res://scripts/application/session_controller.gdc
+[  52% ] savepack | 保存文件：res://scripts/presentation/app_shell.gdc
+[  57% ] savepack | 保存文件：res://scripts/presentation/audio_service.gdc
+[  61% ] savepack | 保存文件：res://scripts/presentation/boot.gdc
+[  66% ] savepack | 保存文件：res://scripts/presentation/modal_host.gdc
+[  70% ] savepack | 保存文件：res://scripts/presentation/page.gdc
+[  75% ] savepack | 保存文件：res://scripts/presentation/placeholder_world.gdc
+[  79% ] savepack | 保存文件：res://scripts/presentation/s00_probe.gdc
+[  84% ] savepack | 保存文件：res://scripts/presentation/settings_view.gdc
+[  89% ] savepack | 保存文件：res://scripts/presentation/text_catalog.gdc
+[  94% ] savepack | 保存文件：res://scripts/presentation/ui_factory.gdc
+[  94% ] savepack | 保存文件：res://scenes/app/Boot.tscn.remap
+[  94% ] savepack | 保存文件：res://scenes/app/Home.tscn.remap
+[  94% ] savepack | 保存文件：res://scenes/app/LevelMap.tscn.remap
+[  94% ] savepack | 保存文件：res://scenes/app/S00Probe.tscn.remap
+[  94% ] savepack | 保存文件：res://scenes/ui/ModalHost.tscn.remap
+[  94% ] savepack | 保存文件：res://scenes/ui/Settings.tscn.remap
+[  94% ] savepack | 保存文件：res://scenes/world/Ranch.tscn.remap
+[  94% ] savepack | 保存文件：res://scenes/world/Town.tscn.remap
+[  94% ] savepack | 保存文件：res://scripts/application/session_controller.gd.remap
+[  94% ] savepack | 保存文件：res://scripts/presentation/app_shell.gd.remap
+[  94% ] savepack | 保存文件：res://scripts/presentation/audio_service.gd.remap
+[  94% ] savepack | 保存文件：res://scripts/presentation/boot.gd.remap
+[  94% ] savepack | 保存文件：res://scripts/presentation/modal_host.gd.remap
+[  94% ] savepack | 保存文件：res://scripts/presentation/page.gd.remap
+[  94% ] savepack | 保存文件：res://scripts/presentation/placeholder_world.gd.remap
+[  94% ] savepack | 保存文件：res://scripts/presentation/s00_probe.gd.remap
+[  94% ] savepack | 保存文件：res://scripts/presentation/settings_view.gd.remap
+[  94% ] savepack | 保存文件：res://scripts/presentation/text_catalog.gd.remap
+[  94% ] savepack | 保存文件：res://scripts/presentation/ui_factory.gd.remap
+[  94% ] savepack | 保存文件：res://.godot/global_script_class_cache.cfg
+[  94% ] savepack | 保存文件：res://.godot/uid_cache.bin
+[  94% ] savepack | 保存文件：res://project.binary
+[ DONE ] savepack
+
